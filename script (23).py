@@ -29,4 +29,4 @@ with tab3:
     company_profile = st.text_area("Enter a brief overview of your company's expertise and field of work")
     if st.button("Search for Matching Tenders"):
         # Here cosine_similarity is used to match the company profile with available tenders
-        st.info("Analyzing and matching proposals...")s
+        st.info("Analyzing and matching proposals...")
